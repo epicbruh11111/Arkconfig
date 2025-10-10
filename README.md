@@ -17,6 +17,16 @@ cons
 -  primegen would hate this (pro for me! but not for you sucker)
 
 
+# Installation:
+
+```bash
+git clone --depth=1 https://github.com/epicbruh11111/Arkconfig ~/Arkconfig
+cd ~/Arkconfig/scripts/installer
+chmod +x ./install.sh
+sudo sh ./install.sh
+
+```
+
 # Documentation
 
 Just read this:
