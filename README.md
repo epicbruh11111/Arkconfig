@@ -25,8 +25,19 @@ https://github.com/gaurav23b/simple-hyprland
 this config is at its start point so using simple-hyprland's docs on this config is gonna be sweet
 (if this config becomes huge and unsimple but I'll try to make it simple)
 
-# Version: 1
+# Version: 1.5
 # Update:
-- nice start
-- no dunst yes swaync
-- wlogout fix (going to report the problem to gurav!)
+- tofi -> rofi 
+- cava
+- btop/btop++
+- update hyprland config
+
+# Update description
+
+tofi isn't too modern as most preconfigured setups and rofi foxes that
+
+cava is nice but I wont implement it in waybar please manually do it
+
+btops is nice for cli preformance checking
+
+syncing changes to hyprland.conf to make new stuff automated

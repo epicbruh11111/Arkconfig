@@ -12,8 +12,8 @@ print_info "\nStarting utilities setup..."
 run_command "pacman -S --noconfirm waybar" "Install Waybar - Status Bar" "yes"
 run_command "cp -r $BASE_DIR/configs/waybar /home/$SUDO_USER/.config/" "Copy Waybar config" "yes" "no"
 
-run_command "yay -S --sudoloop --noconfirm tofi" "Install Tofi - Application Launcher" "yes" "no"
-run_command "cp -r $BASE_DIR/configs/tofi /home/$SUDO_USER/.config/" "Copy Tofi config(s)" "yes" "no"
+run_command "yay -S --sudoloop --noconfirm rofi" "Install Rofi - Application Launcher" "yes" "no"
+run_command "cp -r $BASE_DIR/configs/rofi /home/$SUDO_USER/.config/" "Copy Rofi config(s)" "yes" "no"
 
 run_command "pacman -S --noconfirm cliphist" "Install Cliphist - Clipboard Manager" "yes"
 
@@ -32,5 +32,11 @@ run_command "yay -S --sudoloop --noconfirm grimblast" "Install Grimblast - Scree
 
 run_command "yay -S --sudoloop --noconfirm hypridle" "Install Hypridle for idle management (Must)" "yes" "no"
 run_command "cp -r $BASE_DIR/configs/hypr/hypridle.conf /home/$SUDO_USER/.config/hypr/" "Copy Hypridle config" "yes" "no"
+
+run_command "yay -S --sudoloop --noconfirm cava" "Install cava " "yes" "no"
+run_command "cp -r $BASE_DIR/configs/cava /home/$SUDO_USER/.config/" "Copy cava config" "yes" "no"
+
+run_command "yay -S --sudoloop --noconfirm btop" "Install btop" "yes" "no"
+run_command "cp -r $BASE_DIR/configs/btop /home/$SUDO_USER/.config/" "Copy btop config" "yes" "no"
 
 echo "------------------------------------------------------------------------"
