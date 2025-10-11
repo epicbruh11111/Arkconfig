@@ -12,7 +12,7 @@ print_info "\nStarting utilities setup..."
 run_command "pacman -S --noconfirm waybar" "Install Waybar - Status Bar" "yes"
 run_command "cp -r $BASE_DIR/configs/waybar /home/$SUDO_USER/.config/" "Copy Waybar config" "yes" "no"
 
-run_command "yay -S --sudoloop --noconfirm rofi" "Install Rofi - Application Launcher" "yes" "no"
+run_command "yay -S --sudoloop --noconfirm rofi yad" "Install Rofi - Application Launcher" "yes" "no"
 run_command "cp -r $BASE_DIR/configs/rofi /home/$SUDO_USER/.config/" "Copy Rofi config(s)" "yes" "no"
 
 run_command "pacman -S --noconfirm cliphist" "Install Cliphist - Clipboard Manager" "yes"
@@ -38,5 +38,8 @@ run_command "cp -r $BASE_DIR/configs/cava /home/$SUDO_USER/.config/" "Copy cava 
 
 run_command "yay -S --sudoloop --noconfirm btop" "Install btop" "yes" "no"
 run_command "cp -r $BASE_DIR/configs/btop /home/$SUDO_USER/.config/" "Copy btop config" "yes" "no"
+
+run_command "yay -S --sudoloop --noconfirm fastfetch" "Install fastfetch" "yes" "no"
+run_command "cp -r $BASE_DIR/configs/fastfetch /home/$SUDO_USER/.config/" "Copy btop config" "yes" "no"
 
 echo "------------------------------------------------------------------------"

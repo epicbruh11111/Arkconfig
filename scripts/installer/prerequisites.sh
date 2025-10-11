@@ -31,4 +31,10 @@ run_command "pacman -S --noconfirm vim" "Install vim" "yes"
 
 run_command "pacman -S --noconfirm tar" "Install tar for extracting files (Must)/needed for copying themes" "yes"
 
+run_command "pacman -S --noconfirm zsh" "Install zsh" "yes"
+
+run_command "sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"" "install oh my zsh" "yes"
+
+run_command "cp -r $BASE_DIR/configs/.zshrc /home/$SUDO_USER/" "Copy zsh config" "yes" "no"
+
 echo "------------------------------------------------------------------------"

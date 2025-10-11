@@ -1,8 +1,27 @@
-Fri Oct 10 06:01:03 PM +03 2025: Installation started
-Fri Oct 10 06:01:03 PM +03 2025: Script not run as root. Exiting.
-Fri Oct 10 06:01:37 PM +03 2025: Installation started
-Fri Oct 10 06:01:37 PM +03 2025: Script not run as root. Exiting.
-Fri Oct 10 06:02:49 PM +03 2025: Installation started
-Fri Oct 10 06:02:49 PM +03 2025: Original user is ark
-Fri Oct 10 06:02:49 PM +03 2025: Arch Linux detected. Installation proceeding.
-Fri Oct 10 06:02:54 PM +03 2025: Script interrupted and exited
+Sat Oct 11 04:53:33 PM +03 2025: Attempting to run: Copy btop config
+Sat Oct 11 04:53:51 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:51 PM +03 2025: Copy btop config completed successfully.
+Sat Oct 11 04:53:51 PM +03 2025: Attempting to run: Copy cava config
+Sat Oct 11 04:53:55 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:55 PM +03 2025: Copy cava config completed successfully.
+Sat Oct 11 04:53:55 PM +03 2025: Attempting to run: Copy hypr config
+Sat Oct 11 04:53:55 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:55 PM +03 2025: Copy hypr config completed successfully.
+Sat Oct 11 04:53:55 PM +03 2025: Attempting to run: Copy kitty config
+Sat Oct 11 04:53:56 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:56 PM +03 2025: Copy kitty config completed successfully.
+Sat Oct 11 04:53:56 PM +03 2025: Attempting to run: Copy rofi config
+Sat Oct 11 04:53:56 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:56 PM +03 2025: Copy rofi config completed successfully.
+Sat Oct 11 04:53:56 PM +03 2025: Attempting to run: Copy swaync config
+Sat Oct 11 04:53:57 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:57 PM +03 2025: Copy swaync config completed successfully.
+Sat Oct 11 04:53:57 PM +03 2025: Attempting to run: Copy waybar config
+Sat Oct 11 04:53:57 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:57 PM +03 2025: Copy waybar config completed successfully.
+Sat Oct 11 04:53:57 PM +03 2025: Attempting to run: Copy wlogout config
+Sat Oct 11 04:53:57 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:53:57 PM +03 2025: Copy wlogout config completed successfully.
+Sat Oct 11 04:53:57 PM +03 2025: Attempting to run: Copy assets (Must! Some apps rely on it)
+Sat Oct 11 04:54:00 PM +03 2025: Operation accepted by user.
+Sat Oct 11 04:54:00 PM +03 2025: Copy assets (Must! Some apps rely on it) completed successfully.
