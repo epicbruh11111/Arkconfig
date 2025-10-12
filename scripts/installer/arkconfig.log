@@ -25,3 +25,41 @@ Sat Oct 11 04:53:57 PM +03 2025: Copy wlogout config completed successfully.
 Sat Oct 11 04:53:57 PM +03 2025: Attempting to run: Copy assets (Must! Some apps rely on it)
 Sat Oct 11 04:54:00 PM +03 2025: Operation accepted by user.
 Sat Oct 11 04:54:00 PM +03 2025: Copy assets (Must! Some apps rely on it) completed successfully.
+Sun Oct 12 11:16:35 AM +03 2025: Attempting to run: Install brave Browser
+Sun Oct 12 11:16:40 AM +03 2025: Operation accepted by user.
+Sun Oct 12 11:16:55 AM +03 2025: Install brave Browser completed successfully.
+Sun Oct 12 11:16:55 AM +03 2025: Attempting to run: Install elecwhat
+Sun Oct 12 11:17:01 AM +03 2025: Operation accepted by user.
+Sun Oct 12 11:17:14 AM +03 2025: Install elecwhat completed successfully.
+Sun Oct 12 11:17:14 AM +03 2025: Attempting to run: Install discord 
+Sun Oct 12 11:17:17 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:17 AM +03 2025: Install discord  was skipped by user choice.
+Sun Oct 12 11:17:17 AM +03 2025: Attempting to run: Install python (Recommended)
+Sun Oct 12 11:17:24 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:24 AM +03 2025: Install python (Recommended) was skipped by user choice.
+Sun Oct 12 11:17:24 AM +03 2025: Attempting to run: Install pip (Recommended)
+Sun Oct 12 11:17:27 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:27 AM +03 2025: Install pip (Recommended) was skipped by user choice.
+Sun Oct 12 11:17:27 AM +03 2025: Attempting to run: Install rust (Recommended)
+Sun Oct 12 11:17:28 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:28 AM +03 2025: Install rust (Recommended) was skipped by user choice.
+Sun Oct 12 11:17:28 AM +03 2025: Attempting to run: Install cargo (Recommended)
+Sun Oct 12 11:17:29 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:29 AM +03 2025: Install cargo (Recommended) was skipped by user choice.
+Sun Oct 12 11:17:29 AM +03 2025: Attempting to run: Install thunderbird 
+Sun Oct 12 11:17:30 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:30 AM +03 2025: Install thunderbird  was skipped by user choice.
+Sun Oct 12 11:17:30 AM +03 2025: Attempting to run: Install obsidian 
+Sun Oct 12 11:17:31 AM +03 2025: Operation cancelled by user.
+Sun Oct 12 11:17:31 AM +03 2025: Install obsidian  was skipped by user choice.
+Sun Oct 12 11:17:31 AM +03 2025: Attempting to run: Install KVM/QEMU 
+Sun Oct 12 11:17:34 AM +03 2025: Operation accepted by user.
+Sun Oct 12 11:17:56 AM +03 2025: Install KVM/QEMU  completed successfully.
+Sun Oct 12 11:17:56 AM +03 2025: Attempting to run: activate KVM/QEMU && sudo usermod -aG libvirt root
+
+Sun Oct 12 11:18:03 AM +03 2025: Operation accepted by user.
+Sun Oct 12 11:18:03 AM +03 2025: activate KVM/QEMU && sudo usermod -aG libvirt root
+ completed successfully.
+Sun Oct 12 11:18:03 AM +03 2025: Attempting to run: enable default network (must for virtual machines)
+Sun Oct 12 11:18:06 AM +03 2025: Operation accepted by user.
+Sun Oct 12 11:18:07 AM +03 2025: enable default network (must for virtual machines) completed successfully.

@@ -27,6 +27,7 @@ run_script "utilities.sh" "Basic Utilities & Configs Setup"
 run_script "theming.sh" "Themes and Tools Setup"
 run_script "final.sh" "Final Setup"
 
+
 print_bold_blue "\n🌟 Setup Complete\n"
 log_message "Installation completed successfully"
 

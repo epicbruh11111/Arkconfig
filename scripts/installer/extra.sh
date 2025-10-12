@@ -17,3 +17,15 @@ run_command "pacman -S --noconfirm rust" "Install rust (Recommended)" "yes"
 run_command "pacman -S --noconfirm cargo" "Install cargo (Recommended)" "yes"
 run_command "pacman -S --noconfirm thunderbird" "Install thunderbird " "yes"
 run_command "pacman -S --noconfirm obsidian" "Install obsidian " "yes"
+
+
+# virtual machine:
+
+run_command "pacman -S --noconfirm qemu-full virt-manager virt-viewer dnsmasq vde2 bridge-utils openbsd-netcat libvirt polkit polkit-gnome" "Install KVM/QEMU " "yes"
+
+run_command "systemctl enable --now libvirtd.service
+" "activate KVM/QEMU && sudo usermod -aG libvirt $(whoami)
+" "yes"
+
+run_command "sudo virsh net-start default && sudo virsh net-autostart default" "enable default network (must for virtual machines)"
+
