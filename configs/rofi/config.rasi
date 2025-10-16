@@ -55,7 +55,7 @@ mainbox {
     orientation:                 horizontal;
     children:                    [ "imagebox" , "listbox" ];
     background-color:            transparent;
-    background-image:            url("~/.config/rofi/extra/img.png");
+    background-image:            url("~/.config/rofi/extra/ii.png");
 }
 
 imagebox {
